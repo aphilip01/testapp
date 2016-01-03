@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <!--<link rel="stylesheet" href="site.css">
+  <link rel="stylesheet" href="sit.css">-->
+</head>
+
+<body>
+    <div class="container">
+      <div style=" margin-bottom: 20px;  padding-bottom: 5px;  border-bottom: 1px solid #eeeeee;">
+        <br/>
+        <ul class="nav nav-pills pull-right">
+          <li ><a href="/">Home</a></li>    
+          <li class="active"><a href="/contact/">Contact</a></li>  
+        </ul>
+  <h3>abcdefgh</h3>
+      </div>
+  
+  <br/><br/>
+  <div class="container" style=" margin-bottom: 20px;  padding-bottom: 5px;  border-bottom: 1px solid #eeeeee;">
+    <div class="row">
+      <div class="col-md-12">
+        <h4 class="col-sm-offset-2">Contact Form</h4><br/>
+        <form class="form-horizontal" action="submit" method="POST">
+              <div class="form-group">
+                  <label for="name" class="col-sm-2 control-label">Name</label>
+                  <div class="col-sm-6">
+                    <input type="text" name="name" class="form-control" placeholder="Enter name...">
+                  </div>
+              </div>
+
+              <div class="form-group">
+                  <label for="Contact No#" class="col-sm-2 control-label">Contact No#</label>
+                  <div class="col-sm-6">
+                    <input type="text" name="contactno" class="form-control" placeholder="Enter contact number..">
+                  </div>
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="col-sm-2 control-label">Email</label>
+                  <div class="col-sm-6">
+                    <input type="email" name="email" class="form-control" placeholder="Enter email...">
+                  </div>
+              </div>
+
+
+              <div class="form-group">
+                <label for="Course" class="col-sm-2 control-label">Course needed</label>
+                <div class="col-sm-6">
+                    <select class="form-control" name="selection1">
+                      <option value="" disabled selected style="display: none;">Select from list</option>
+                      <option  value="SQL">SQL</option>
+                      <option value="SSRS">SSRS</option>
+                      <option value="Javascript">Javascript</option>
+                      <option value="Testing">Testing</option>
+
+
+                    </select>
+                </div>
+              </div>
+
+               <div class="form-group">
+                <label for="message" class="col-sm-2 control-label">Message</label>
+                  <div class="col-sm-6">
+                    <textarea class="form-control" name="message" rows="6" placeholder="Enter message..."></textarea>
+                  </div>
+              </div>
+
+               <div class="form-group">
+                <label for="gender" class="col-sm-2 control-label">Gender</label>
+                <div class="col-sm-6">
+                    <label class="radio-inline">
+                      <input type="radio" name="genderRadio" value="Male"/> Male
+                    </label>
+
+                    <label class="radio-inline">
+                      <input type="radio" name="genderRadio" value="Female"/> Female
+                    </label>
+                </div>
+              </div>
+
+
+
+
+               <div class="form-group">
+                
+                  <div class="col-sm-offset-2 col-sm-6">
+                    <button type="submit" class="btn btn-primary" style="background:#337ab7; color: #ffffff;">Submit</button>
+                    <button type="reset" class="btn btn-default" >Clear</button>
+                  </div>
+              </div>
+
+        </form>
+
+      </div>
+
+
+    </div>
+
+</div>
+
+      <div class="footer">
+  <p>&copy; 2016-2017 XYZ</p>
+</div>
+
+  </div>
+  
+
+
+</body>
+</html>
